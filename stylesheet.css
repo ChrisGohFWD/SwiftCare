@@ -1,0 +1,90 @@
+/* start */
+* {
+	box-sizing: border-box;
+	font-family: "Mulish";
+	color: black;  
+}
+/* end */
+
+/* start */
+body {
+	background-color: #f5fafc;
+	margin: 20px;
+	width:1500px;
+}
+/* end */
+
+/* start */
+hr{
+	border: 2px solid black
+}
+/* end */
+
+/* start */
+a:link,a:visited,a:hover,a:active{
+	text-decoration: none;
+	}
+/* end */
+
+table,th,td{
+	border: 1px  black;
+}
+
+/* header start */
+th.spacer{
+	width: 29%;
+}
+th.header1{
+	font-size: 150%;
+	padding: 10px;
+	width: 11%;
+}
+a.header1{
+	color: #85C1E9;
+}
+a.header1:hover{
+	color: #839192;
+}
+table.header2{
+	text-align: center;
+	vertical-align: top;
+}
+th.header2{
+	font-size: 180%;
+	font-weight: bolder;
+}
+td.header2{
+	font-size: 100%;
+	vertical-align: super;
+}
+img.header2{
+	height: 100px;
+}
+th.header2,td.header2{
+	padding-left: 15px;
+}
+/* header end */
+
+/* footer start */
+footer{
+	width: 100%;
+}
+table.footer{
+	text-align: center;
+	width: 100%;
+}
+th.footer{
+	font-size: 150%;
+	width: 25%;
+}
+h1.footer{
+	font-size: 120%;	
+	text-align: center;
+
+}
+/* footer end */
+@media only screen and (max-width: 600px) {
+			header,div,footer,img,table {
+				width: 100%;
+			}
+		}
