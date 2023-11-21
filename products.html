@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mulish">
 	<link rel="icon" type="image/x-icon" href="Images/logo:footer/swiftcare-logo.png">
-	<link rel="stylesheet" href="stylesheet.css">
+	<link rel="stylesheet" href="style.css">
 	<style>
 		/* start */
 		div.a{
@@ -14,41 +14,80 @@
 		}
 		h1.a{
 			font-size: 250%;
+			font-weight: bolder;
 		}
 		p.a{
-			font-size: 150%;
+			font-size: 160%; 
 		}
 		/* end */
 		
 		/* start */
-		table.b{
+		img.img{
+			width: 63%;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		/* end */
+		
+		/* start */
+		div.b{
+			text-align: center;
+		}
+		h1.b{
+			font-size: 250%;
+		}
+		p.b{
+			font-size: 160%; 
+		}
+		img.b{
+			width: 70%;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		/* end */
+		
+		/* start */
+		table.c{
 			align-content: center;
 			width: 100%;
 		}
-		th.bh{
+		th.c1{
 			font-size: 250%;
+			padding-bottom: 20px;
 		}
-		th.b{
-			font-size: 200%;
+		th.c{
+			font-size: 150%;
 		}
-		td.b{
-			font-size: 140%;	
-			width: 50%;
-			vertical-align: bottom;
-		}
-		th.b,td.b{
+		td.c{
+			font-size: 120%;	
+			width: 20%;
+			padding: 15px;
 			text-align: center;
-			padding: 10px;
+			vertical-align: sub;
 		}
-		img.b{
-			width: 300px;
-			height: 300px;
+		/* end */
+		
+		/* start */
+		h1.d{
+			font-size: 250%;
+			text-align: center;
 		}
-		a.b{
-			color: #85C1E9;
+		table.d{
+			text-align: center;
+			width: 100%;
+			border: 2px solid black;
 		}
-		a.b:hover{
-			color: #839192;
+		th.d{
+			font-size: 150%;
+		}
+		td.d{
+			font-size: 130%;	
+		}
+		img.d{
+			width: 56px;
+			height: 56px;
 		}
 		/* end */
 	</style>
@@ -60,9 +99,9 @@
 				<th rowspan="2"><img class="header2" src="Images/logo:footer/swiftcare-logo.png" alt="Swiftcare logo"> </th>
 				<th class="header2">SwiftCare Services</th>
 				<th class="spacer"></th>
-				<th class="header1"><a class="header1" href="index.html">Home</a></th>
+				<th class="header1"><a class="header1" href="index.html" style="color: #839192">Home</a></th>
 				<th class="header1"><a class="header1" href="aboutus.html">About us</a></th>
-				<th class="header1"><a class="header1" href="products.html" style="color: #839192">Product</a></th>
+				<th class="header1"><a class="header1" href="products.html">Product</a></th>
 				<th class="header1"><a class="header1" href="contactus.html">Contact us</a></th>
 			</tr>
 			<tr>
@@ -73,59 +112,81 @@
 	</header>
 	<br>
 	<div class="a">
-		<h1 class="a">What Products do we Sell?</h1>
-		<p class="a"><b>SwiftCare Services</b> offers a range of hassle-free hardware products designed to simplify your technological experience. Our curated selection includes cutting-edge devices such as smart home solutions, ergonomic peripherals, and reliable accessories, ensuring seamless integration into your daily life. Discover innovative hardware solutions that prioritize ease of use and elevate your technology journey with SwiftCare Services.</p>
+		<h1 class="a">What we are about here at SwiftCare</h1>
+		<p class="a">Welcome to SwiftCare Services, where we redefine simplicity in the world of technology. Our mission is to provide innovative solutions without the hassle, ensuring a seamless and efficient experience for all your needs.</p>
 	</div>
-	<hr>
+	<hr><br>
+	<div class="img">
+		<img class="img" src="Images/index/IOT-1.jpg" alt="IoT digram">
+	</div>
+	<br><hr>
 	<div class="b">
-		<table class="b">	
+		<h1 class="b">What's IoT about</h1>
+			<p class="b">IoT(Internet of Things) connects everyday objects to the internet, allowing them to collect and share data. This enables automation and remote control of devices, enhancing efficiency and convenience in various applications like smart homes and industries.</p>
+			<img class="b" src="Images/index/IoT-Structure.webp" alt="IOT Structure">
+	</div>
+	<br><hr><br>
+	<div class="c">
+		<table class="c">
 			<tr>
-				<th class="bh" colspan="2">IoT Device</th>
+				<th class="c1" colspan="5">Products we make</th>
 			</tr>
 			<tr>
-				<th class="b">Arduino® UNO R4 WiFi</th>
-				<th class="b">Raspberry Pi 5</th>
+				<th class="c"><img src="Images/index/edge-computing-icon.png" alt="edge-computing"></th>
+				<th class="c"><img src="Images/index/hardware-design-icon.png" alt="hardware-design"></th>
+				<th class="c"><img src="Images/index/embedded-board-icon.png" alt="icon-embedded-board"></th>
+				<th class="c"><img src="Images/index/iot-gateway-icon.png" alt="icon-iot-gateway"></th>
+				<th class="c"><img src="Images/index/soms-icon.png" alt="icon-soms"></th>
 			</tr>
 			<tr>
-				<th class="b"><img  class="b" src="Images/products/Arduino%C2%AE_UNO_R4_WiFi.png" alt="Arduino® UNO R4 WiFi"></th>
-				<th class="b"><img  class="b" src="Images/products/Raspberry_Pi_5.png" alt="Raspberry Pi 5"></th>
+				<th class="c">Edge Computing</th>
+				<th class="c">Hardware Design</th>
+				<th class="c">Embedded Board</th>
+				<th class="c">IoT Gateway</th>
+				<th class="c">System Module</th>
 			</tr>
 			<tr>
-				<td class="b">The Arduino UNO R4 WiFi merges the RA4M1 microprocessor from Renesas with the ESP32-S3 from Espressif, creating an all-in-one tool for makers with enhanced processing power and a diverse array of new peripherals.</td>
-				<td class="b">Raspberry Pi 5 features the Broadcom BCM2712 quad-core Arm Cortex A76 processor @ 2.4GHz, making it up to three times faster than the previous generation. With RAM variants up to 8GB.</td>
-			</tr>
-			<tr>
-				<td class="b"><a class="b" href="https://store.arduino.cc/products/uno-r4-wifi" target="_blank">Learn More</a></td>
-				<td class="b"><a class="b" href="https://www.raspberrypi.com/products/raspberry-pi-5/" target="_blank">Learn More</a></td>
-			</tr>
-			<tr>
-				<th class="bh" colspan="2"><hr></th>
-			</tr>
-			<tr>
-				<th class="bh" colspan="2">IoT GateWay/Edge Computing</th>
-			</tr>
-			<tr>
-				<th class="b">RUGGEDCOM VPE1400</th>
-				<th class="b">SCALANCE LPE</th>
-			</tr>
-			<tr>
-				<th class="b"><img class="b" src="Images/products/RUGGEDCOM_VPE1400.png" alt="RUGGEDCOM VPE1400"></th>
-				<th class="b"><img  class="b" src="Images/products/SCALANCE_LPE.png" alt="SCALANCE LPE"></th>
-			</tr>
-			<tr>
-				<td class="b">provides a rugged, cost effective hardware platform with a virtual environment to run a guest Linux operating system and third party applications.</td>
-				<td class="b">Reliable data processing and analysis in the field SCALANCE LPE (Local Processing Engine) is a small and robust local processing engine with a powerful CPU.</td>
-			</tr>
-			<tr>
-				<td class="b"><a class="b" href="https://eworldme.com/SIEMENS_RUGGEDCOM_VPE1400_Cellular_Router" target="_blank">Learn More</a></td>
-				<td class="b"><a class="b" href="https://www.siemens.com/global/en/products/automation/industrial-communication/industrial-ethernet/local-processing.html?gclid=CjwKCAiA9dGqBhAqEiwAmRpTC8m2nvpA8jBEz3RP1LmjTHKt00Ul7fdhKnTvv0Gzzq9xwvyo5SaKIBoCjGcQAvD_BwE&acz=1&gad_source=1" target="_blank">Learn More</a></td>
-			</tr>
-			<tr>
-				<td class="b" colspan="2" style="align-content: center"><hr>Go to contact us for enquries.</td>
+				<td class="c">Edge computing is a decentralized computing paradigm where data processing is performed closer to the source of data generation, reducing latency and enhancing real-time capabilities by processing information locally on edge devices rather than relying solely on centralized cloud servers.</td>
+				<td class="c">Hardware design involves creating the physical components of electronic devices, encompassing the selection and arrangement of integrated circuits, connectors, power sources, and other essential elements to ensure the functionality, reliability, and performance of the hardware.</td>
+				<td class="c">An embedded board is a compact, integrated circuit board that houses a microprocessor and often includes additional components such as memory, input/output interfaces, and connectivity options. These boards are designed for specific applications and are embedded within electronic devices to control and manage their functions.</td>
+				<td class="c">An IoT (Internet of Things) gateway is a hardware device that serves as a bridge between IoT devices and the cloud, enabling communication, data processing, and connectivity. It collects data from various IoT devices, processes it locally, and transmits relevant information to the cloud for further analysis and storage, facilitating efficient and secure communication in IoT ecosystems.</td>
+				<td class="c">A system module is a self-contained unit within a larger system, typically designed to perform specific functions or processes. It often includes hardware and software components that work together to execute tasks, providing modularity and ease of integration within a broader system architecture.</td>
 			</tr>
 		</table>
 	</div>
 	<hr>
+	<div class="d">
+		<h1 class="d">Our IoT Hardware/Software Portfolio</h1>
+		<table class="d">
+			<tr>
+				<th class="d" colspan="2">OS</th>
+				<th class="d" colspan="2">Chip Platform</th>
+				<th class="d" colspan="2">Language</th>
+				<th class="d" colspan="2">Protocols</th>
+			</tr>
+			<tr>
+				<td class="d"><img class="d" src="Images/index/apple-os.png" alt="Apple logo"></td>
+				<td class="d"><img class="d" src="Images/index/android-os.png" alt="Android logo"></td>
+				<td class="d"><img class="d" src="Images/index/amd-logo.svg" alt="AMD logo"></td>
+				<td class="d"><img class="d" src="Images/index/intel-logo.png" alt="Intel Logo"></td>
+				<td class="d"><img class="d" src="Images/index/PHP-logo.png" alt="PHP Logs"></td>
+				<td class="d"><img class="d" src="Images/index/python-logo.png" alt="Python Logo"></td>
+				<td class="d"><img class="d" src="Images/index/bluetooth-logo.png" alt="Bluetooth logo"></td>
+				<td class="d"><img class="d" src="Images/index/z-wave-logo.png" alt="Z-Wave logo"></td>
+			</tr>
+			<tr>
+				<td class="d"><img class="d" src="Images/index/linux-os.png" alt="Linux Logo"></td>
+				<td class="d"><img class="d" src="Images/index/windows-os.png" alt="Window Logo"></td>
+				<td class="d"><img class="d" src="Images/index/Nvidia-logo.png" alt="Nvidia Logo"></td>
+				<td class="d"><img class="d" src="Images/index/tsmc-logo.png" alt="TSMC Logo"></td>
+				<td class="d"><img class="d" src="Images/index/C-Logo.png" alt="C Logo"></td>
+				<td class="d"><img class="d" src="Images/index/java-logo.png" alt="Java Logo"></td>
+				<td class="d"><img class="d" src="Images/index/zigbee-logo.svg" alt="Zigbee Logo"></td>
+				<td class="d"><img class="d" src="Images/index/mqtt-logo.png" alt="MQTT Logo"></td>
+			</tr>
+		</table>
+	</div>
+	<br><hr>
 	<footer>
 		<table class="footer">
 			<tr>
