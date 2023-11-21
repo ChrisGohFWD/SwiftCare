@@ -30,6 +30,9 @@ table,th,td{
 }
 
 /* header start */
+table.header2{
+	width:100%;
+}
 th.spacer{
 	width: 29%;
 }
